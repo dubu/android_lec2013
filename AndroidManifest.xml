@@ -18,7 +18,6 @@
         </activity>
         <activity android:name="BlueActivity"
                   android:label="@string/blue_name">
-
         </activity>
     </application>
 </manifest> 
