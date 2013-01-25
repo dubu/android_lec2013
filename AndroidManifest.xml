@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.android_first"
+          package="com.kingkongdubu.lecture"
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="10"/>
@@ -19,5 +19,8 @@
         <activity android:name="BlueActivity"
                   android:label="@string/blue_name">
         </activity>
+
+
     </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest> 

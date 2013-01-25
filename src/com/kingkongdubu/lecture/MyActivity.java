@@ -1,4 +1,4 @@
-package com.example.android_first;
+package com.kingkongdubu.lecture;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -7,10 +7,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
+import com.kingkongdubu.lecture.R;
 
 public class MyActivity extends Activity {
-    public static final int REQUEST_CODE  = 100;
+    public static final int REQUEST_CODE = 100;
 
     /**
      * Called when the activity is first created.
@@ -22,7 +22,7 @@ public class MyActivity extends Activity {
     }
 
 
-    public void btn_click(View view){
+    public void btn_click(View view) {
         /*
         System.out.println("sdfdssssssssssssssss dxxxxxxxxxxxxxxx");
         TextView textView = (TextView) findViewById(R.id.textView);
@@ -35,14 +35,14 @@ public class MyActivity extends Activity {
         //startActivity(intent, REQUEST_CODE); // 이거 놓치 었음.
     }
 
-    public void btn_call_click(View view){
-         try{
-        Intent callIntenet = new Intent(Intent.ACTION_CALL);
-        callIntenet.setData(Uri.parse("tel:0315217844"));
-        startActivity(callIntenet);
-         }catch (ActivityNotFoundException act){
-             Log.e("Log", act.getMessage());
-         }
+    public void btn_call_click(View view) {
+        try {
+            Intent callIntenet = new Intent(Intent.ACTION_CALL);
+            callIntenet.setData(Uri.parse("tel:0315217844"));
+            startActivity(callIntenet);
+        } catch (ActivityNotFoundException act) {
+            Log.e("Log", act.getMessage());
+        }
 
     }
 
@@ -50,8 +50,8 @@ public class MyActivity extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         //
 
-        if(requestCode == REQUEST_CODE){
-            if(resultCode == RESULT_OK){
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == RESULT_OK) {
                 String result = data.getExtras().getString("result");
                 //T
             }

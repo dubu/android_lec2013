@@ -1,10 +1,10 @@
-package com.example.android_first;
+package com.kingkongdubu.lecture;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import com.kingkongdubu.lecture.R;
 
 public class RedActivity extends Activity {
     /**
