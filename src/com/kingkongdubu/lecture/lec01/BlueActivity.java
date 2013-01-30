@@ -1,8 +1,9 @@
-package com.kingkongdubu.lecture;
+package com.kingkongdubu.lecture.lec01;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.kingkongdubu.lecture.R;
+import com.kingkongdubu.R;
+
 
 public class BlueActivity extends Activity {
     /**

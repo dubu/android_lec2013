@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+
+        <EditText
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:text="Type phome Number here"
+                android:id="@+id/txt_phone"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="298dp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="왼쪽"
+                android:id="@+id/btn_left"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="374dp"
+                android:onClick="onClickCallBtn"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="오른쪽"
+                android:id="@+id/btn_right"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="382dp"
+                android:onClick="onClickShowImageBtn"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="숙제01.  "
+                android:id="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="27dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="87dp"/>
+
+        <ImageView
+                android:layout_width="251dp"
+                android:layout_height="135dp"
+                android:id="@+id/imageView"
+                android:layout_alignLeft="@+id/txt_phone"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="127dp"/>
+    </RelativeLayout>
+</LinearLayout>
+
+

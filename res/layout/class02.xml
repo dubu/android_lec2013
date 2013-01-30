@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#ff9e69">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="184dp"
+            android:layout_alignTop="@+id/button"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="104dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="88dp"/>
+
+    <ScrollView
+            android:layout_width="164dp"
+            android:layout_height="102dp"
+            android:id="@+id/scrollView"
+            android:background="#ffe738"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button2">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button3"/>
+    </ScrollView>
+
+    <RelativeLayout
+            android:layout_width="124dp"
+            android:layout_height="121dp"
+            android:background="#ff1e27"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/scrollView">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="13dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

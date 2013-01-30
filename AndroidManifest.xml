@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.kingkongdubu.lecture"
+          package="com.kingkongdubu"
           android:versionCode="1"
           android:versionName="1.0">
+
     <uses-sdk android:minSdkVersion="10"/>
-    <application android:label="@string/app_name" android:theme="@android:style/Theme.Black">
-        <activity android:name="MyActivity"
-                                     android:label="@string/app_name">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
-    </activity>
-        <activity android:name="RedActivity"
-                  android:label="@string/red_name">
 
+    <application
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black">
+        <activity
+                android:name=".lecture.lec01.MyActivity"
+                android:label="@string/app_name">
+            <!--   //   수업 하나
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
         </activity>
-        <activity android:name="BlueActivity"
-                  android:label="@string/blue_name">
+        <activity
+                android:name=".lecture.lec01.RedActivity"
+                android:label="@string/red_name">
         </activity>
+        <activity
+                android:name=".homework.home01.IntendExample"
+                android:label="@string/home01_name">
+            <!-- 숙제 하나
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>
+             -->
+         </activity>
+        <activity
+                android:name=".homework.home02.WellActivity"
+                android:label="@string/home02_name">
 
-
-    </application>
-    <uses-permission android:name="android.permission.CALL_PHONE" />
-</manifest> 
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>
+        </activity>
+     </application>
+     <uses-permission android:name="android.permission.CALL_PHONE"/>
+ </manifest>

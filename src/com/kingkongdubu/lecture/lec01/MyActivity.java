@@ -1,4 +1,4 @@
-package com.kingkongdubu.lecture;
+package com.kingkongdubu.lecture.lec01;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import com.kingkongdubu.lecture.R;
+import com.kingkongdubu.R;
 
 public class MyActivity extends Activity {
     public static final int REQUEST_CODE = 100;
@@ -53,7 +53,7 @@ public class MyActivity extends Activity {
         if (requestCode == REQUEST_CODE) {
             if (resultCode == RESULT_OK) {
                 String result = data.getExtras().getString("result");
-                //T
+
             }
         }
     }

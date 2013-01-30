@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sampleId1"   type="id" />
+    <item name="sampleId2"   type="id" />
+    <item name="sampleId3"   type="id" />
+    <item name="sampleId4"   type="id" />
+    <item name="sampleId5"   type="id" />
+    <item name="sampleId6"   type="id" />
+    <item name="sampleId7"   type="id" />
+    <item name="sampleId8"   type="id" />
+</resources>
