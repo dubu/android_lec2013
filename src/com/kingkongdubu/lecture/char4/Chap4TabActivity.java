@@ -32,12 +32,12 @@ public class Chap4TabActivity extends Activity  {
         tabHost.addTab(tab1);
 
 
-        TabSpec tab2 =   tabHost.newTabSpec("tab1").setIndicator("tab1", icon).setContent(R.id.ch4_tab2);
-        tabHost.addTab(tab1);
+        TabSpec tab2 =   tabHost.newTabSpec("tab2").setIndicator("tab2", icon).setContent(R.id.ch4_tab2);
+        tabHost.addTab(tab2);
 
 
-        TabSpec tab3 =   tabHost.newTabSpec("tab1").setIndicator("tab1", icon).setContent(R.id.ch4_tab3);
-        tabHost.addTab(tab1);
+        TabSpec tab3 =   tabHost.newTabSpec("tab3").setIndicator("tab3", icon).setContent(R.id.ch4_tab3);
+        tabHost.addTab(tab3);
 
 
 

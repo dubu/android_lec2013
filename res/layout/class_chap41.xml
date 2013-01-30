@@ -37,13 +37,15 @@
                 <LinearLayout
                         android:id="@+id/ch4_tab2"
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent">
+                        android:layout_height="fill_parent"
+                        android:background="#ff885c">
                 </LinearLayout>
 
                 <LinearLayout
                         android:id="@+id/ch4_tab3"
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent">
+                        android:layout_height="fill_parent"
+                        android:background="#3aff53">
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
