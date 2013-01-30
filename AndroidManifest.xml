@@ -32,16 +32,32 @@
                  <category android:name="android.intent.category.LAUNCHER"/>
              </intent-filter>
              -->
-         </activity>
+        </activity>
         <activity
                 android:name=".homework.home02.WellActivity"
                 android:label="@string/home02_name">
-
+            <!--
              <intent-filter>
                  <action android:name="android.intent.action.MAIN"/>
                  <category android:name="android.intent.category.LAUNCHER"/>
              </intent-filter>
+              -->
         </activity>
-     </application>
-     <uses-permission android:name="android.permission.CALL_PHONE"/>
- </manifest>
+
+        <activity
+                android:name=".lecture.char4.Chap4Activity"
+                android:label="@string/home02_name">
+        </activity>
+
+        <activity
+                android:name=".lecture.char4.Chap4TabActivity"
+                android:label="@string/home02_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+</manifest>

@@ -30,7 +30,6 @@ public class IntendExample extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homework01);
 
-
         //set right button
         Button buttonLoadImage = (Button) findViewById(R.id.btn_right);
         buttonLoadImage.setOnClickListener(new View.OnClickListener() {
