@@ -1,4 +1,4 @@
-package com.kingkongdubu.lecture.lec01;
+package com.kingkongdubu.lecture.chap02;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -18,7 +18,7 @@ public class MyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.class_chap02_main);
     }
 
 

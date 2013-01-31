@@ -1,4 +1,4 @@
-package com.kingkongdubu.lecture.lec01;
+package com.kingkongdubu.lecture.chap02;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ public class BlueActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.blue);
+        setContentView(R.layout.class_chap02_blue);
     }
 
 

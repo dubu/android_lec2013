@@ -1,4 +1,4 @@
-package com.kingkongdubu.lecture.char4;
+package com.kingkongdubu.lecture.chap04;
 
 
 
@@ -18,7 +18,7 @@ public class Chap4TabActivity extends Activity  {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.class_chap41);
+        setContentView(R.layout.class_chap041);
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
         tabHost.setup();       // 이거 뭐지 ? 해줘야 한다고 함.
 

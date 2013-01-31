@@ -10,7 +10,7 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.Black">
         <activity
-                android:name=".lecture.lec01.MyActivity"
+                android:name=".lecture.chap02.MyActivity"
                 android:label="@string/app_name">
             <!--   //   수업 하나
             <intent-filter>
@@ -20,11 +20,11 @@
             -->
         </activity>
         <activity
-                android:name=".lecture.lec01.RedActivity"
+                android:name=".lecture.chap02.RedActivity"
                 android:label="@string/red_name">
         </activity>
         <activity
-                android:name=".homework.home01.IntendExample"
+                android:name=".homework.chap02.PhoneCallActivity"
                 android:label="@string/home01_name">
             <!-- 숙제 하나
              <intent-filter>
@@ -34,7 +34,7 @@
              -->
         </activity>
         <activity
-                android:name=".homework.home02.WellActivity"
+                android:name=".homework.chap03.WellActivity"
                 android:label="@string/home02_name">
             <!--
              <intent-filter>
@@ -45,12 +45,12 @@
         </activity>
 
         <activity
-                android:name=".lecture.char4.Chap4Activity"
+                android:name=".lecture.chap04.Chap4Activity"
                 android:label="@string/home02_name">
         </activity>
 
         <activity
-                android:name=".lecture.char4.Chap4TabActivity"
+                android:name=".lecture.chap04.Chap4TabActivity"
                 android:label="@string/home02_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

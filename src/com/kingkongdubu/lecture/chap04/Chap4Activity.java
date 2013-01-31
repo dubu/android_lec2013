@@ -1,10 +1,7 @@
-package com.kingkongdubu.lecture.char4;
+package com.kingkongdubu.lecture.chap04;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.View;
 import android.widget.*;
 import com.kingkongdubu.R;
 
@@ -17,7 +14,7 @@ public class Chap4Activity extends Activity  {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.class_chap4);
+        setContentView(R.layout.class_chap04);
 
        /*
         EditText editText = (EditText) findViewById(R.id.ch4_editText);
