@@ -19,6 +19,8 @@ public class CustomComponent extends Activity {
                     // aaa
                     // bbb
 
+                    /// ccc
+
 
         super.onCreate(savedInstanceState);
     }
