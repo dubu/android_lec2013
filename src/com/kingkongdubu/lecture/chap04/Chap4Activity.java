@@ -27,9 +27,6 @@ public class Chap4Activity extends Activity  {
                 //To change body of implemented methods use File | Settings | File Templates.
             }
         });
-
-
-
 */
         // spinner
         Spinner spinner = (Spinner) findViewById(R.id.chap4_spinner);

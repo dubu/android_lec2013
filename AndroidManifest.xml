@@ -52,12 +52,37 @@
         <activity
                 android:name=".lecture.chap04.Chap4TabActivity"
                 android:label="@string/home02_name">
+            <!-- chap4
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            -->
         </activity>
 
+        <activity
+                android:name=".homework.chap04.CostomWidgetActivity"
+                android:label="@string/homework_chap4_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+                android:name=".lecture.chap05.Chap5Activity"
+                android:label="@string/lecture_chap5_name">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+
+        </activity>
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>

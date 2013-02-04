@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">android_first</string>
-    <string name="dubu_name">dubudubu </string>
-    <string name="red_name">Red rejsldfjlsd  </string>
-    <string name="blue_name">Blue rejsldfjlsd  </string>
-    <string name="home01_name">Intends example  </string>
+    <string name="dubu_name">dubudubu</string>
+    <string name="red_name">Red rejsldfjlsd</string>
+    <string name="blue_name">Blue rejsldfjlsd</string>
+    <string name="home01_name">Intends example</string>
 
 
-    <string name="dubu_nm01">dubu  </string>
-    <string name="dubu_nm02">mandu  </string>
-    <string name="dubu_nm03">gamja  </string>
+    <string name="dubu_nm01">dubu</string>
+    <string name="dubu_nm02">mandu</string>
+    <string name="dubu_nm03">gamja</string>
 
-    <string name="home02_name">make Well layout  </string>
+    <string name="home02_name">make Well layout</string>
 
+    <string name="homework_chap4_name">custom widget</string>
+
+    <string name="lecture_chap5_name">List View </string>
 
 
 </resources>
