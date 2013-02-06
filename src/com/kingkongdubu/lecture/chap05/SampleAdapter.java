@@ -84,7 +84,7 @@ public class SampleAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.lec_char5_imageView);
         TextView titleView = (TextView) convertView.findViewById(R.id.lec_char5_titleText);
-        TextView deTextView = (TextView) convertView.findViewById(R.id.lec_char5_descText);
+        TextView deTextView = (TextView) convertView.findViewById(R.id.lec_char5_desc);
 
         //3 list  뷰 조작 단계
         imageView.setBackgroundResource(itemlist.get(position).getImageResourceId());

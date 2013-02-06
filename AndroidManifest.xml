@@ -75,12 +75,12 @@
                 android:name=".lecture.chap05.Chap5Activity"
                 android:label="@string/lecture_chap5_name">
 
-            <!--
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-            -->
+
 
         </activity>
 
@@ -88,12 +88,12 @@
                 android:name=".lecture.chap06.Chap6Activity"
                 android:label="@string/lecture_chap6_name">
 
-
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
+                -->
 
         </activity>
     </application>
