@@ -1,12 +1,14 @@
 package com.kingkongdubu.homework.chap05;
 
 import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import com.kingkongdubu.R;
 
 import java.util.ArrayList;
@@ -25,8 +27,10 @@ public class CusDownListVeiwAdapter extends BaseAdapter {
 
     private ArrayList<CusItemData> itemlist;
     private Activity activity;
+    private Context context;
 
-    public CusDownListVeiwAdapter(ArrayList<CusItemData> itemlist, Activity activity) {
+    public CusDownListVeiwAdapter(Context context, ArrayList<CusItemData> itemlist, Activity activity) {
+        this.context = context;
         this.itemlist = itemlist;
         this.activity = activity;
     }
@@ -60,6 +64,17 @@ public class CusDownListVeiwAdapter extends BaseAdapter {
 
         TextView titleView = (TextView) convertView.findViewById(R.id.homework_ch5_down_titleText);
         TextView deTextView = (TextView) convertView.findViewById(R.id.homework_ch5_down_descText);
+
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                TextView descText = (TextView) view.findViewById(R.id.homework_ch5_down_descText);
+                Toast toast = Toast.makeText(context, descText.getText(), Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
 
         titleView.setText(itemlist.get(position).getTitleText());
         deTextView.setText(itemlist.get(position).getDiscriptionText());

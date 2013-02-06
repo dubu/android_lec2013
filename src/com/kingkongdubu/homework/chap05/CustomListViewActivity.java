@@ -34,16 +34,11 @@ public class CustomListViewActivity  extends Activity{
         }
 
         upListView = (ListView) findViewById(R.id.home_chap5_uplistView);
-        upListView.setAdapter(new CusUpListVeiwAdapter(itemlist, this));
+        upListView.setAdapter(new CusUpListVeiwAdapter(this , itemlist, this));
 
         downListView = (ListView) findViewById(R.id.home_chap5_downlistView);
-        downListView.setAdapter(new CusDownListVeiwAdapter(itemlist, this));
+        downListView.setAdapter(new CusDownListVeiwAdapter(this ,itemlist, this));
 
-        /*
-        // 요거 적용하기
-        Toast toast = Toast.makeText(this, "메세지 입력.",
-                Toast.LENGTH_SHORT);
-        toast.show();
-        */
+
     }
 }
