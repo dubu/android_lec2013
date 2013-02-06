@@ -1,0 +1,71 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/class_ch6_listView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            />
+
+    <TextView
+            android:layout_width="386dp"
+            android:layout_height="166dp"
+            android:text="검색 블라블라"
+            android:id="@+id/textView"
+            android:background="@drawable/ch6_search_bar_background"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ho"
+            android:id="@+id/button"
+            android:background="@drawable/ch6_confirm_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="25dp"
+            android:layout_alignTop="@+id/button1"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button1"
+            style="@style/confirm_button"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="189dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="309dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="custom button"
+            android:id="@+id/textView1"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="267dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nine patch "
+            android:id="@+id/textView2"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp"/>
+
+    <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="style"
+            android:id="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="196dp"
+            android:layout_alignTop="@+id/textView1"/>
+</RelativeLayout>
