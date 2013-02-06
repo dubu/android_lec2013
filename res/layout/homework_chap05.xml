@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="303dp"
+            android:id="@+id/home_chap5_uplistView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="317dp"
+            android:id="@+id/home_chap5_downlistView"
+            android:layout_alignLeft="@+id/home_chap5_uplistView"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="374dp"/>
+</RelativeLayout>

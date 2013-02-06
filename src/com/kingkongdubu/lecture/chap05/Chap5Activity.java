@@ -31,7 +31,7 @@ public class Chap5Activity extends Activity {
 
         listView = (ListView) findViewById(R.id.class_ch5_listView);
 
-        //Adapter adapter = new SampleAdapter(listView)    ;
+        //Adapter adapter = new CusUpListVeiwAdapter(listView)    ;
 
         listView.setAdapter(new SampleAdapter(itemlist, this));
 
