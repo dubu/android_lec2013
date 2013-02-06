@@ -15,7 +15,7 @@
             android:layout_height="166dp"
             android:text="검색 블라블라"
             android:id="@+id/textView"
-            android:background="@drawable/ch6_search_bar_background"
+            android:background="@drawable/lec_ch6_search_bar_background"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="34dp"
             android:layout_alignParentTop="true"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="ho"
             android:id="@+id/button"
-            android:background="@drawable/ch6_confirm_btn"
+            android:background="@drawable/lec_ch6_confirm_btn"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="25dp"
             android:layout_alignTop="@+id/button1"/>
