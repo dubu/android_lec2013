@@ -1,4 +1,4 @@
-package com.kingkongdubu.homework.chap8;
+package com.kingkongdubu.homework.chap08;
 
 import android.app.Activity;
 import android.app.AlarmManager;

@@ -166,7 +166,7 @@
         </activity>
 
         <activity
-                android:name=".homework.chap8.AlramFoodTickerActivity"
+                android:name=".homework.chap08.AlramFoodTickerActivity"
                 android:label="@string/homework_chap8_name">
 
             <intent-filter>
@@ -177,7 +177,7 @@
         </activity>
 
         <activity
-                android:name=".homework.chap8.NoticeActivity"
+                android:name=".homework.chap08.NoticeActivity"
                 android:label="@string/lecture_chap8_name">
         </activity>
 
