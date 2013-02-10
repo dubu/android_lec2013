@@ -181,7 +181,16 @@
                 android:label="@string/lecture_chap8_name">
         </activity>
 
+        <activity
+                android:name=".lecture.chap09.Chap9Activity"
+                android:label="@string/lecture_chap9_name">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
 
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
