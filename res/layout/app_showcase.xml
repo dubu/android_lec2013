@@ -127,4 +127,12 @@
             android:layout_toRightOf="@+id/app_btn_hw01"
             android:layout_alignTop="@+id/app_btn_hw06"/>
 
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HW08"
+            android:id="@+id/app_btn_hw08"
+            android:layout_toRightOf="@+id/app_btn_hw02"
+            android:layout_alignTop="@+id/app_btn_hw06"/>
+
 </RelativeLayout>

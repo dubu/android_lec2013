@@ -13,6 +13,7 @@ import com.kingkongdubu.homework.chap05.CustomListViewActivity;
 import com.kingkongdubu.homework.chap06.CustomButtonActivity;
 import com.kingkongdubu.homework.chap07.HttpActivity;
 import com.kingkongdubu.homework.chap08.AlramFoodTickerActivity;
+import com.kingkongdubu.homework.chap09.DpFixelTransistor;
 import com.kingkongdubu.lecture.chap02.MyActivity;
 import com.kingkongdubu.lecture.chap04.Chap4Activity;
 import com.kingkongdubu.lecture.chap04.Chap4TabActivity;
@@ -20,6 +21,7 @@ import com.kingkongdubu.lecture.chap05.Chap5Activity;
 import com.kingkongdubu.lecture.chap06.Chap6Activity;
 import com.kingkongdubu.lecture.chap07.Chap7Activity;
 import com.kingkongdubu.lecture.chap08.Chap8RedActivity;
+import com.kingkongdubu.lecture.chap09.Chap9Activity;
 
 import java.util.ArrayList;
 
@@ -72,6 +74,7 @@ public class ShowCaseAcitivity extends Activity {
         classActivitys.add( Chap6Activity.class);
         classActivitys.add( Chap7Activity.class);
         classActivitys.add( Chap8RedActivity.class);
+        classActivitys.add( Chap9Activity.class);
 
 
 
@@ -83,6 +86,8 @@ public class ShowCaseAcitivity extends Activity {
         hwActivitys.add(4, CustomButtonActivity.class);
         hwActivitys.add(5, HttpActivity.class);
         hwActivitys.add(6, AlramFoodTickerActivity.class);
+        hwActivitys.add(7, DpFixelTransistor.class);
+
 
         ArrayList<View.OnClickListener> classClickEvents = new ArrayList();
         ArrayList<View.OnClickListener> hwClickEvents = new ArrayList();
@@ -116,6 +121,7 @@ public class ShowCaseAcitivity extends Activity {
         Button btn_class05 = (Button) findViewById(R.id.app_btn_class05);
         Button btn_class06 = (Button) findViewById(R.id.app_btn_class06);
         Button btn_class07 = (Button) findViewById(R.id.app_btn_class07);
+        Button btn_class08 = (Button) findViewById(R.id.app_btn_class08);
 
 
         btn_class01.setOnClickListener(classClickEvents.get(0));
@@ -125,6 +131,7 @@ public class ShowCaseAcitivity extends Activity {
         btn_class05.setOnClickListener(classClickEvents.get(4));
         btn_class06.setOnClickListener(classClickEvents.get(5));
         btn_class07.setOnClickListener(classClickEvents.get(6));
+        btn_class08.setOnClickListener(classClickEvents.get(7));
 
 
 
@@ -135,6 +142,7 @@ public class ShowCaseAcitivity extends Activity {
         Button btn_hw05 = (Button) findViewById(R.id.app_btn_hw05);
         Button btn_hw06 = (Button) findViewById(R.id.app_btn_hw06);
         Button btn_hw07 = (Button) findViewById(R.id.app_btn_hw07);
+        Button btn_hw08 = (Button) findViewById(R.id.app_btn_hw08);
 
         btn_hw01.setOnClickListener(hwClickEvents.get(0));
         btn_hw02.setOnClickListener(hwClickEvents.get(1));
@@ -143,6 +151,7 @@ public class ShowCaseAcitivity extends Activity {
         btn_hw05.setOnClickListener(hwClickEvents.get(4));
         btn_hw06.setOnClickListener(hwClickEvents.get(5));
         btn_hw07.setOnClickListener(hwClickEvents.get(6));
+        btn_hw08.setOnClickListener(hwClickEvents.get(7));
 
 
 

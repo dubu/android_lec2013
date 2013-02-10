@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" >
+    <EditText
+            android:id="@+id/homework_chap09_EditView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:ems="10" />
+    <Button
+            android:id="@+id/homework_chap09_btn"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Translate"
+            android:layout_alignRight="@+id/homework_chap09_radioGroup"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="327dp"/>
+    <TextView
+            android:id="@+id/homework_chap09_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result : "
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="266dp"/>
+    <RadioGroup
+            android:id="@+id/homework_chap09_radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homework_chap09_EditView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" >
+        <RadioButton
+                android:id="@+id/homework_chap09_dpToPixel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="DP -> Pixel" />
+        <RadioButton
+                android:id="@+id/homework_chap09_pixelToDp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pixel -> DP" />
+    </RadioGroup>
+</RelativeLayout>

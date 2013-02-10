@@ -184,7 +184,17 @@
         <activity
                 android:name=".lecture.chap09.Chap9Activity"
                 android:label="@string/lecture_chap9_name">
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            -->
+        </activity>
 
+        <activity
+                android:name=".homework.chap09.DpFixelTransistor"
+                android:label="@string/homework_chap9_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

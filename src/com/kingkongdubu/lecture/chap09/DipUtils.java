@@ -30,7 +30,7 @@ public class DipUtils {
     public  void init(Activity activity){
          density = activity.getResources().getDisplayMetrics().density;
         int dpi = activity.getResources().getDisplayMetrics().densityDpi;
-        Log.e("TEST skyrp" , String.format("density = %f, dpi = %d",density,dpi));
+        Log.e("TEST dubu" , String.format("density = %f, dpi = %d",density,dpi));
     }
 
     public int DpToPixel(float dp){
