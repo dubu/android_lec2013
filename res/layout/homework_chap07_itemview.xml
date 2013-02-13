@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/homework_chap07_nameTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+    <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="created date"
+            android:id="@+id/homework_chap07_createdDateTextView"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/homework_chap07_nameTextView"/>
+</RelativeLayout>

@@ -25,5 +25,7 @@
 
     <string name="lecture_chap7_name"> 통신..  </string>
 
+    <string name="homework_chap7_name"> API 호출 </string>
+
 
 </resources>

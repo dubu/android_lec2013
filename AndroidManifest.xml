@@ -106,13 +106,25 @@
                 android:name=".homework.chap06.CustomButtonActivity"
                 android:label="@string/lecture_chap6_name">
             <!--
-            <intent-filter>
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
             -->
         </activity>
 
         <activity
                 android:name=".lecture.chap07.Chap7Activity"
                 android:label="@string/lecture_chap7_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".homework.chap07.HttpActivity"
+                android:label="@string/homework_chap7_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
