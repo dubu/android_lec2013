@@ -105,6 +105,14 @@
         <activity
                 android:name=".homework.chap06.CustomButtonActivity"
                 android:label="@string/lecture_chap6_name">
+            <!--
+            <intent-filter>
+            -->
+        </activity>
+
+        <activity
+                android:name=".lecture.chap07.Chap7Activity"
+                android:label="@string/lecture_chap7_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -113,4 +121,5 @@
 
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

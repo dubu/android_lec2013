@@ -1,0 +1,45 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="통신"
+            android:id="@+id/lec_chap7_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp"/>
+
+    <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:id="@+id/class_chap7_idText"
+            android:layout_alignLeft="@+id/lec_chap7_title"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="115dp"/>
+
+    <EditText
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:id="@+id/class_chap7_passwordText"
+            android:layout_alignLeft="@+id/lec_chap7_title"
+            android:layout_below="@+id/class_chap7_idText"
+            android:password="true"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:id="@+id/class_chap7_submitButton"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="226dp"/>
+
+
+</RelativeLayout>
