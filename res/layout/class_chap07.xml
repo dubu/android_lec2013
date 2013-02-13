@@ -41,11 +41,12 @@
             android:layout_marginTop="228dp"/>
 
     <TextView
-            android:layout_width="146dp"
-            android:layout_height="78dp"
+            android:layout_width="235dp"
+            android:layout_height="293dp"
             android:text="New Text"
             android:id="@+id/class_chap7_textView"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="210dp"
-            android:layout_alignTop="@+id/class_chap7_idText"/>
+            android:layout_alignTop="@+id/class_chap7_idText"
+            android:background="#ffffff"/>
 </RelativeLayout>

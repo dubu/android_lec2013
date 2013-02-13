@@ -109,6 +109,8 @@ public class Chap7Activity extends Activity {
                     //Log.d("TEST", "Code id " + statusCode);
 
                     cookieStore = client.getCookieStore();
+                    //return     String.valueOf(cookieStore)      ;
+                    return getFileList();
 
 
                     /*
@@ -142,8 +144,7 @@ public class Chap7Activity extends Activity {
             @Override
             protected void onPostExecute(String result) {
                 if(result == null) {
-                    //resultTextView.setText("failed!");
-                    getFileList();
+                    resultTextView.setText("failed!");
                 }else{
                     resultTextView.setText(result);
                 }
@@ -251,7 +252,7 @@ public class Chap7Activity extends Activity {
     private String getFileList() {
         // 쿠ㄱ키를 잘 킵한다.
          DefaultHttpClient client    = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("httpd://")   ;
+        HttpGet httpGet = new HttpGet("http://cloud.daum.net/disk/root.json")   ;
         client.setCookieStore(cookieStore);
 
 
