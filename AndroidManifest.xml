@@ -131,6 +131,15 @@
             </intent-filter>
         </activity>
 
+        <activity
+                android:name=".app.ShowCaseAcitivity"
+                android:label="@string/homework_all_showcase">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
