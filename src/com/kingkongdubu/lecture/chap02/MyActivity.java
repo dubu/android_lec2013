@@ -38,7 +38,7 @@ public class MyActivity extends Activity {
     public void btn_call_click(View view) {
         try {
             Intent callIntenet = new Intent(Intent.ACTION_CALL);
-            callIntenet.setData(Uri.parse("tel:0315217844"));
+            callIntenet.setData(Uri.parse("tel:03100000000000000000000"));
             startActivity(callIntenet);
         } catch (ActivityNotFoundException act) {
             Log.e("Log", act.getMessage());
