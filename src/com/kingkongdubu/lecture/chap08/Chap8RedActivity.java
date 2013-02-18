@@ -10,10 +10,8 @@ import android.widget.Button;
 import com.kingkongdubu.R;
 
 /**
- * User: Administrator
  * Date: 13. 2. 13
  * Time: 오전 9:12
- * To change this template use File | Settings | File Templates.
  */
 public class Chap8RedActivity extends Activity {
 
@@ -49,7 +47,7 @@ public class Chap8RedActivity extends Activity {
                 getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(0, notification);
 
-
+        redBtn.setText("5초 뒤 blue 이동");
         redBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

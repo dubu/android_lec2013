@@ -11,7 +11,7 @@
             android:theme="@android:style/Theme.Black">
         <activity
                 android:name=".lecture.chap02.MyActivity"
-                android:label="@string/app_name">
+                android:label="@string/lecture_chap2_my">
             <!--   //   수업 하나
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -21,7 +21,11 @@
         </activity>
         <activity
                 android:name=".lecture.chap02.RedActivity"
-                android:label="@string/red_name">
+                android:label="@string/lecture_chap2_red">
+        </activity>
+        <activity
+                android:name=".lecture.chap02.BlueActivity"
+                android:label="@string/lecture_chap2_blue">
         </activity>
         <activity
                 android:name=".homework.chap02.PhoneCallActivity"
@@ -161,17 +165,22 @@
                 android:label="@string/lecture_chap8_name">
         </activity>
 
-
-      <!--
         <activity
-                android:name=".lecture.chap08.Chap8GreenActivity"
-                android:label="@string/lecture_chap8_name">
+                android:name=".homework.chap8.AlramFoodTickerActivity"
+                android:label="@string/homework_chap8_name">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
-       -->
+
+        <activity
+                android:name=".homework.chap8.NoticeActivity"
+                android:label="@string/lecture_chap8_name">
+        </activity>
+
 
 
     </application>

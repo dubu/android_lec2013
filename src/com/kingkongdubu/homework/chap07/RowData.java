@@ -1,11 +1,9 @@
 package com.kingkongdubu.homework.chap07;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 2. 13
  * Time: 오후 7:47
- * To change this template use File | Settings | File Templates.
  */
 public class RowData {
 

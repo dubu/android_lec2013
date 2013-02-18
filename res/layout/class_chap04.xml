@@ -34,21 +34,21 @@
     <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/spinner"
-            android:layout_alignLeft="@+id/chap4_spinner"
+            android:id="@+id/chap4_spinner"
+            android:layout_alignRight="@+id/chap4_imageView"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="138dp"
-            android:layout_alignRight="@+id/chap4_imageView"/>
+            android:layout_marginTop="177dp"
+            android:layout_alignLeft="@+id/chap4_button"/>
 
     <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ch4_progressBar"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="20dp"
-            android:layout_alignTop="@+id/spinner"
             style="@android:style/Widget.ProgressBar.Horizontal"
-            android:layout_alignRight="@+id/ch4_editText"/>
+            android:layout_alignRight="@+id/ch4_editText"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="141dp"
+            android:layout_alignLeft="@+id/chap4_button"/>
 
     <SeekBar
             android:layout_width="129dp"
@@ -56,5 +56,5 @@
             android:id="@+id/ch4_seekBar"
             android:layout_alignLeft="@+id/ch4_progressBar"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="176dp"/>
+            android:layout_marginTop="241dp"/>
 </RelativeLayout>

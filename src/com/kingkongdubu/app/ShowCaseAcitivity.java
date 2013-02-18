@@ -12,21 +12,22 @@ import com.kingkongdubu.homework.chap04.CostomWidgetActivity;
 import com.kingkongdubu.homework.chap05.CustomListViewActivity;
 import com.kingkongdubu.homework.chap06.CustomButtonActivity;
 import com.kingkongdubu.homework.chap07.HttpActivity;
+import com.kingkongdubu.homework.chap8.AlramFoodTickerActivity;
 import com.kingkongdubu.lecture.chap02.MyActivity;
 import com.kingkongdubu.lecture.chap02.RedActivity;
 import com.kingkongdubu.lecture.chap04.Chap4Activity;
+import com.kingkongdubu.lecture.chap04.Chap4TabActivity;
 import com.kingkongdubu.lecture.chap05.Chap5Activity;
 import com.kingkongdubu.lecture.chap06.Chap6Activity;
 import com.kingkongdubu.lecture.chap07.Chap7Activity;
+import com.kingkongdubu.lecture.chap08.Chap8RedActivity;
 
 import java.util.ArrayList;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 2. 14
  * Time: 오후 3:03
- * To change this template use File | Settings | File Templates.
  */
 public class ShowCaseAcitivity extends Activity {
 
@@ -65,11 +66,15 @@ public class ShowCaseAcitivity extends Activity {
         setContentView(R.layout.app_showcase);
 
         final ArrayList<Class> classActivitys = new ArrayList<Class>();
-        classActivitys.add(0, MyActivity.class);
-        classActivitys.add(1, Chap4Activity.class);
-        classActivitys.add(2, Chap5Activity.class);
-        classActivitys.add(3, Chap6Activity.class);
-        classActivitys.add(4, Chap7Activity.class);
+        classActivitys.add( MyActivity.class);
+        classActivitys.add( Chap4Activity.class);
+        classActivitys.add( Chap4TabActivity.class);
+        classActivitys.add( Chap5Activity.class);
+        classActivitys.add( Chap6Activity.class);
+        classActivitys.add( Chap7Activity.class);
+        classActivitys.add( Chap8RedActivity.class);
+
+
 
         final ArrayList<Class> hwActivitys = new ArrayList<Class>();
         hwActivitys.add(0, PhoneCallActivity.class);
@@ -78,6 +83,7 @@ public class ShowCaseAcitivity extends Activity {
         hwActivitys.add(3, CustomListViewActivity.class);
         hwActivitys.add(4, CustomButtonActivity.class);
         hwActivitys.add(5, HttpActivity.class);
+        hwActivitys.add(6, AlramFoodTickerActivity.class);
 
         ArrayList<View.OnClickListener> classClickEvents = new ArrayList();
         ArrayList<View.OnClickListener> hwClickEvents = new ArrayList();
@@ -109,12 +115,17 @@ public class ShowCaseAcitivity extends Activity {
         Button btn_class03 = (Button) findViewById(R.id.app_btn_class03);
         Button btn_class04 = (Button) findViewById(R.id.app_btn_class04);
         Button btn_class05 = (Button) findViewById(R.id.app_btn_class05);
+        Button btn_class06 = (Button) findViewById(R.id.app_btn_class06);
+        Button btn_class07 = (Button) findViewById(R.id.app_btn_class07);
+
 
         btn_class01.setOnClickListener(classClickEvents.get(0));
         btn_class02.setOnClickListener(classClickEvents.get(1));
         btn_class03.setOnClickListener(classClickEvents.get(2));
         btn_class04.setOnClickListener(classClickEvents.get(3));
         btn_class05.setOnClickListener(classClickEvents.get(4));
+        btn_class06.setOnClickListener(classClickEvents.get(5));
+        btn_class07.setOnClickListener(classClickEvents.get(6));
 
 
 
@@ -124,6 +135,7 @@ public class ShowCaseAcitivity extends Activity {
         Button btn_hw04 = (Button) findViewById(R.id.app_btn_hw04);
         Button btn_hw05 = (Button) findViewById(R.id.app_btn_hw05);
         Button btn_hw06 = (Button) findViewById(R.id.app_btn_hw06);
+        Button btn_hw07 = (Button) findViewById(R.id.app_btn_hw07);
 
         btn_hw01.setOnClickListener(hwClickEvents.get(0));
         btn_hw02.setOnClickListener(hwClickEvents.get(1));
@@ -131,6 +143,7 @@ public class ShowCaseAcitivity extends Activity {
         btn_hw04.setOnClickListener(hwClickEvents.get(3));
         btn_hw05.setOnClickListener(hwClickEvents.get(4));
         btn_hw06.setOnClickListener(hwClickEvents.get(5));
+        btn_hw07.setOnClickListener(hwClickEvents.get(6));
 
 
 

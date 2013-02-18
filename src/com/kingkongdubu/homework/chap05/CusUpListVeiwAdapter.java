@@ -15,11 +15,9 @@ import java.util.ArrayList;
 
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 2. 4
  * Time: 오전 9:35
- * To change this template use File | Settings | File Templates.
  */
 
 

@@ -8,11 +8,9 @@ import com.kingkongdubu.R;
 import java.util.ArrayList;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 2. 6
  * Time: 오후 12:26
- * To change this template use File | Settings | File Templates.
  */
 public class CustomListViewActivity  extends Activity{
     ArrayList<CusItemData> itemlist;

@@ -29,11 +29,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 2. 13
  * Time: 오후 7:26
- * To change this template use File | Settings | File Templates.
  */
 public class HttpActivity extends Activity {
     TextView idEditText;

@@ -6,6 +6,11 @@
     <string name="blue_name">Blue rejsldfjlsd</string>
     <string name="home01_name">Intends example</string>
 
+    <string name="lecture_chap2_my">My activity</string>
+    <string name="lecture_chap2_blue">Blue activity</string>
+    <string name="lecture_chap2_red">Red activity</string>
+
+
 
     <string name="dubu_nm01">dubu</string>
     <string name="dubu_nm02">mandu</string>
@@ -30,6 +35,8 @@
     <string name="homework_chap7_name"> API 호출 </string>
 
     <string name="homework_all_showcase"> showcase </string>
+
+    <string name="homework_chap8_name"> 식권알리미 </string>
 
 
 </resources>

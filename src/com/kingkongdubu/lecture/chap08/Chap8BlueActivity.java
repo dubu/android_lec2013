@@ -8,10 +8,8 @@ import android.widget.Button;
 import com.kingkongdubu.R;
 
 /**
- * User: Administrator
  * Date: 13. 2. 13
  * Time: 오전 9:12
- * To change this template use File | Settings | File Templates.
  */
 public class Chap8BlueActivity extends Activity {
 

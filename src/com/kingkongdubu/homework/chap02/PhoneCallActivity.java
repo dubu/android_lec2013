@@ -16,11 +16,9 @@ import android.widget.TextView;
 import com.kingkongdubu.R;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Administrator
  * Date: 13. 1. 25
  * Time: 오후 6:07
- * To change this template use File | Settings | File Templates.
  */
 public class PhoneCallActivity extends Activity {
     private static int RESULT_LOAD_IMAGE = 1;
