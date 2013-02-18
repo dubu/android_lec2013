@@ -8,7 +8,6 @@ import android.os.SystemClock;
 import android.view.View;
 import android.widget.Button;
 import com.kingkongdubu.R;
-import com.kingkongdubu.lecture.chap02.RedActivity;
 
 /**
  * User: Administrator
@@ -56,20 +55,20 @@ public class Chap8RedActivity extends Activity {
             public void onClick(View view) {
 
 
-                // 5초후 알람
-                /*
+                // 5초후 이동 알람
                 Intent intent = new Intent(getApplicationContext(), Chap8BlueActivity.class);
                 AlarmManager manager = (AlarmManager) getApplicationContext().getSystemService(Context.ALARM_SERVICE);
                 PendingIntent sender = PendingIntent.getActivity(getApplicationContext(), 0, intent, 1);
                 long triggerTime = SystemClock.elapsedRealtime() + 1000 * 5;
                 manager.set(AlarmManager.ELAPSED_REALTIME, triggerTime, sender);
-                  */
 
-                ///
 
+
+                /*
                 Intent intent = new Intent(actity, Chap8BlueActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY); // 히스토리를 남기지 않는다
                 startActivity(intent);
+                */
 
             }
         });

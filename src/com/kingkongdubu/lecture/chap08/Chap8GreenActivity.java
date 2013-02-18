@@ -1,12 +1,9 @@
 package com.kingkongdubu.lecture.chap08;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import com.kingkongdubu.R;
-import com.kingkongdubu.lecture.chap02.RedActivity;
 
 /**
  * User: Administrator
