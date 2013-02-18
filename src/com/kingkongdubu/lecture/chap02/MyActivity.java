@@ -48,7 +48,6 @@ public class MyActivity extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        //
 
         if (requestCode == REQUEST_CODE) {
             if (resultCode == RESULT_OK) {

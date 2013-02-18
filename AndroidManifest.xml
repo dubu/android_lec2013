@@ -125,10 +125,12 @@
         <activity
                 android:name=".homework.chap07.HttpActivity"
                 android:label="@string/homework_chap7_name">
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+            -->
         </activity>
 
         <activity
@@ -139,6 +141,38 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+                android:name=".lecture.chap08.Chap8RedActivity"
+                android:label="@string/lecture_chap8_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".lecture.chap08.Chap8BlueActivity"
+                android:label="@string/lecture_chap8_name">
+        </activity>
+
+        <activity
+                android:name=".lecture.chap08.Chap8GreenActivity"
+                android:label="@string/lecture_chap8_name">
+        </activity>
+
+
+      <!--
+        <activity
+                android:name=".lecture.chap08.Chap8GreenActivity"
+                android:label="@string/lecture_chap8_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+       -->
+
 
     </application>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
